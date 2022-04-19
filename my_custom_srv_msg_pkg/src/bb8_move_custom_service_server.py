@@ -1,6 +1,5 @@
 #! /usr/bin/env python
 
-from genpy import Duration
 import rospy
 from my_custom_srv_msg_pkg.srv import MyCustomServiceMessage, MyCustomServiceMessageResponse
 from geometry_msgs.msg import Twist
